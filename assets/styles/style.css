@@ -1,6 +1,7 @@
-
+/*GENERAL*/
 
 /* Content section*/
-.content-main{
-    background-color: bisque;
+/*SUBJECT LIST*/
+.subject-list-item-bold{
+    list-style-type: none;
 }
