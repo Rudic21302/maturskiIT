@@ -4,25 +4,97 @@ body{
 }
 /* Content section*/
 /*SUBJECT LIST*/
+.subject-list-main-section{
+    margin:8px;
+    padding:24px;
+
+}
+.subject-list-main-section .col-sm-6{
+    background-color: #ffddcc;
+    border-radius: 16px;
+    padding: 48px;
+}
+.subject-list-container{
+    text-align: center;
+    padding:16px;
+    margin: 24px;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
 .subject-list-item-bold{
     list-style-type: none;
+    font-size: 24px;
+    color: #cc4400;
 }
 .grade-container{
     background-color: #cc4400;
+    color: #FFEFC1;
     border-radius: 16px;
     padding: 16px;
     margin: 8px;
+    text-align: center;
 }
 .it-subjects-container{
     background-color:  #ff884d;
     border-radius: 24px;
     padding: 16px;
     margin: 8px;
+    text-align: center;
 }
 .general-subjects-container{
     background-color: #ffddcc;
     border-radius: 32px;
     padding: 16px;
     margin: 8px;
+    text-align: center;
 }
+.jrv-btn-grade{
+    background-color: #cc4400;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+    color:#FFEFC1
+}
+.jrv-btn-grade a{
+    background-color: #cc4400;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+    color:#FFEFC1
+}
+
+.jrv-btn-grade:hover{
+    background-color: #ffddcc;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+    color:#cc4400;
+    font-weight: bold;
+}
+.jrv-btn-grade:hover a{
+    background-color: #ffddcc;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 8px;
+    color:#cc4400;
+    font-weight: bold;
+    text-decoration: none;
+}
+.jrv-btn-grade:active{
+    border: none;
+    font-size: 24px;
+}
+.link-to-grade{
+    color:#FFEFC1
+}
+.link-to-grade:hover{
+    color:#cc4400;
+    font-weight: bold;
+    
+}
+
+
 
