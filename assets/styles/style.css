@@ -19,9 +19,28 @@ body{
     background-color: #cc4400;
     border-radius: 16px;
 }
+.socials-main-container .list-group-item i{
+    font-size: 18px;
+}
+.socials-main-container .list-group-item:hover{
+    background-image: url(../images/background-texture.jpg);
+    color: #cc4400 ;
+    font-weight: 900;
+}
+.socials-main-container .list-group-item:hover a{
+    background-image: url(../images/background-texture.jpg);
+    color: #cc4400 ;
+    font-weight: 900;
+}
+.socials-main-container .list-group-item a:hover{
+    background-image: url(../images/background-texture.jpg);
+    color: #cc4400 ;
+    font-weight: 900;
+
+}
 .socials-link{
     color: #FFEFC1;
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none;
 }
 
