@@ -9,6 +9,32 @@ p{
     padding: 4px !important;
 }
 /*NAVBAR*/
+.navbar{
+    background-image: url(../images/footer-texture.jpg);
+}
+.nav-link{
+    font-weight: 500;
+    color: #FFEFC1;
+}
+.nav-link:hover{
+    color: #cc4400;
+    font-weight: 700;
+}
+.nav-item.active .nav-link{
+    color: #FFEFC1;
+    font-weight: 900;
+    font-size: 16px;
+}
+.nav-item.active .nav-link:hover{
+    color: #cc4400;
+    font-weight: 900;
+    font-size: 16px;
+}
+.nav-item.active .nav-link:active{
+    color: #FFEFC1;
+    font-weight: 900;
+    font-size: 16px;
+}
 .navbar-brand-image
 {
     max-height: 48px;
@@ -131,6 +157,9 @@ p{
     background-image: url(../images/background-texture.jpg);
     color: #cc4400 ;
     font-weight: 900;
+}
+.lead b{
+    font-size: 24px;
 }
 /*BLOG SECTION*/
 .blog-section{
