@@ -8,6 +8,12 @@ body{
 p{
     padding: 4px !important;
 }
+/*NAVBAR*/
+.navbar-brand-image
+{
+    max-height: 48px;
+    width: 100%;
+}
 /*HEADER*/
 .custom-header{
     padding-left: 5%;
