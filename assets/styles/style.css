@@ -2,6 +2,69 @@
 body{
     background-image: url(../images/background-texture.jpg);
 }
+/*CONTACT PAGE*/
+.socials-main-container{
+    background-color: #FFEFC1 !important;
+    padding: 16px;
+    margin:16px;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+.socials-main-container .list-group-item{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    margin:8px;
+    border: none;
+    background-color: #cc4400;
+    border-radius: 16px;
+}
+.socials-link{
+    color: #FFEFC1;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.contact-form-main-container{
+    background-color: #FFEFC1;
+    padding: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin:16px;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.form-group label{
+    color: #cc4400;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 4px;
+    padding-left: 8px;
+}
+.form-group .form-control{
+    background-image: url(../images/background-texture.jpg);
+    color: #cc4400;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.jrv-btn-send{
+    background-color: #cc4400;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 24px;
+    margin-left: 4px;
+    color:#FFEFC1
+}
+.jrv-btn-send:hover{
+    background-color: #ffddcc;
+    border-radius: 16px;
+    color:#cc4400;
+    font-weight: bold;
+    padding: 16px;
+    margin: 24px;
+    margin-left: 4px;
+}
 /* Content section*/
 /*SUBJECT LIST*/
 .subject-list-main-section{
@@ -10,7 +73,7 @@ body{
 
 }
 .subject-list-main-section .col-sm-6{
-    background-color: #ffddcc;
+    background-color: #ff884d;
     border-radius: 16px;
     padding: 48px;
 }
@@ -21,7 +84,7 @@ body{
     border-radius: 48px;
     font-size: 16px;
     font-weight: bolder;
-    color: darkblue;
+    color: #FFEFC1;
 }
 
 .subject-list-item-bold{
@@ -29,6 +92,28 @@ body{
     font-size: 24px;
     color: #cc4400;
 }
+.subject-list-item-link
+{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #cc4400;
+}
+.subject-list-item-link:hover
+{
+    font-size: 24px;
+    color:#FFEFC1 ;
+    font-weight: bold;
+}
+.subject-list-item-link a{
+    color: #cc4400;
+    text-decoration: none;
+}
+.subject-list-item-link a:hover{
+    color:#FFEFC1 ;
+    font-weight: bold;
+}
+
 .grade-container{
     background-color: #cc4400;
     color: #FFEFC1;
@@ -39,6 +124,7 @@ body{
 }
 .it-subjects-container{
     background-color:  #ff884d;
+    color: #FFEFC1;
     border-radius: 24px;
     padding: 16px;
     margin: 8px;
@@ -46,6 +132,7 @@ body{
 }
 .general-subjects-container{
     background-color: #ffddcc;
+    color: darkblue;
     border-radius: 32px;
     padding: 16px;
     margin: 8px;
