@@ -36,7 +36,7 @@ body{
 .custom-footer{
     padding: 24px;
     background-color: darkblue;
-    margin-top: 128px;
+    margin-top: 96px;
 }
 .footer-background{
     width: 100%;
@@ -83,6 +83,21 @@ body{
     height: 128px;
     border-radius: 16px;
     margin-right: 16px;
+}
+/*WHY IT CONTENT*/
+.why-it-content-container{
+    margin: 8px;
+    padding: 16px;
+}
+.why-it-text-container{
+    padding: 32px;
+    background-color: #FFEFC1;
+    color: #cc4400;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.why-it-text{
+    text-align: justify;
 }
 /*CONTACT PAGE*/
 .socials-main-container{
